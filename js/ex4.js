@@ -6,7 +6,7 @@ document.querySelector("form").addEventListener("submit", e => {
 
     
     const tableElem = document.createElement("table");
-    tableElem.id = "formDataTable";
+    tableElem.id = "DataEnteredTable";
 
     //create row element for header
     const headerTrElem = document.createElement("tr");
