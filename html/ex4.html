@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 4</title>
+    <link rel="stylesheet" href="../cs/style.css">
+</head>
+<body>
+    <h2>Sample Form</h2>
+    <form>
+        <label >Name: </label>
+        <input type="text" name="name"><br>
+        <br>
+        <label >Email: </label>
+        <input type="email" name="email" ><br>
+        <br>
+        <label >Payment Type:</label><br>
+        <input type="radio" name="payment" value="cash">
+        <label for="cash">Cash</label><br>
+        <input type="radio" name="payment" value="credit card" >
+        <label for="credit card">Credit card</label><br>
+        <input type="radio" name="payment" value="google pay">
+        <label for="google pay">Google Pay</label><br>
+        <input type="radio" name="payment" value="apple pay">
+        <label for="apple pay">Apple Pay</label><br>
+        <br>
+        <input type="checkbox" name="" id="signup" >
+        <label>Sign me up for special promotions</label><br>
+        <br>
+        <label>Preferred Location:</label>
+        <select name="location">
+            <option value="Los Angeles">Los Angeles</option>
+            <option value="Orange County">Orange County</option>
+            <option value="Riverside">Riverside</option>
+            <option value="San Diego">San Diego</option>
+        </select>
+        <br>
+        <br>
+        <button type="submit" value="Submit">Submit</button>
+        <button type="cancel" value="Cancel">Cancel</button><br>    
+</form>
+<h3>Form Data Entered</h3>
+<div id = "result"></div>
+
+<script src="../js/ex4.js"></script>
+<h3><a href="../index.html">Back to main page</a></h3> 
+
+</body>
+</html>
